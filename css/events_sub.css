@@ -1,0 +1,50 @@
+/* *{
+    border: 1px solid red;
+} */
+/* .events_container
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.event
+{
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 1rem;
+    width: 350px;
+    transition: all ease-in-out .4s;
+    background-color: aliceblue;
+} */
+.next
+{
+    justify-content: center;
+    position: relative;
+    top:50%;
+    width: 20px;
+}
+.link
+{
+    transition: all ease-in-out .4s;
+}
+
+
+
+.link:hover
+{
+    background-color: aliceblue;
+}
+
+
+
+.event:hover
+{
+    scale: 1.1;
+}
+
+.poster
+{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,47 @@
+.events_container
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.1fr;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.event
+{
+    border-radius: 15px;
+    /* background: #e0e0e0; */
+    background-color: whitesmoke;
+    /* box-shadow:  7px 7px 14px #d3d3d3,
+    -7px -7px 14px #ededed; */
+    padding: 1rem;
+    width: 95%;
+    transition: all ease-in-out .4s;
+    border: 2px solid #349ded;
+}
+.events h2{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.next
+{
+    justify-content: center;
+    position: relative;
+    top:50%;
+    width: 20px;
+}
+.link
+{
+    transition: all ease-in-out .4s;
+}
+.link:hover
+{
+    /* background-color: aliceblue; */
+}
+.event:hover
+{
+    scale: 1.1;
+}
+.poster
+{
+    margin-bottom: 10px;
+}
